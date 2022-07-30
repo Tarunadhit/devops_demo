@@ -3,12 +3,12 @@ import 'package:devops_demo/database/dao/services.dart';
 import 'package:devops_demo/resources/texts/strings.dart';
 import 'package:devops_demo/ui/views/detail_page.dart';
 
-class AboutUs extends StatefulWidget {
+class Sports extends StatefulWidget {
   @override
-  AboutUsState createState() => AboutUsState();
+  SportsState createState() => SportsState();
 }
 
-class AboutUsState extends State<AboutUs> {
+class SportsState extends State<Sports> {
   late List services;
 
   @override
@@ -43,7 +43,7 @@ class AboutUsState extends State<AboutUs> {
                     child: LinearProgressIndicator(
                         backgroundColor: Color.fromRGBO(209, 224, 224, 0.2),
                         value: services.indicatorValue,
-                        valueColor: AlwaysStoppedAnimation(Colors.amberAccent)),
+                        valueColor: AlwaysStoppedAnimation(Colors.green)),
                   )),
             ],
           ),
@@ -61,7 +61,7 @@ class AboutUsState extends State<AboutUs> {
           elevation: 8.0,
           margin: new EdgeInsets.symmetric(horizontal: 10.0, vertical: 6.0),
           child: Container(
-            decoration: BoxDecoration(color: Color.fromRGBO(10, 23, 19, .9)),
+            decoration: BoxDecoration(color: Color.fromRGBO(64, 75, 96, .9)),
             child: makeListTile(services),
           ),
         );
@@ -79,7 +79,7 @@ class AboutUsState extends State<AboutUs> {
     );
 
     return Scaffold(
-      backgroundColor: Color.fromRGBO(135, 170, 26, 1.0),
+      backgroundColor: Color.fromRGBO(58, 66, 86, 1.0),
       body: makeBody,
     );
   }
@@ -88,23 +88,23 @@ class AboutUsState extends State<AboutUs> {
 List getServices() {
   return [
     Services(
-      title: Strings.TITLE_DPSR_ABOUT_US,
+      title: Strings.TITLE_DPSR_MNN,
       indicatorValue: 0.20,
     ),
     Services(
-      title: Strings.TITLE_DPSR_CONTACT_US,
+      title: Strings.TITLE_DPSR_JHY,
       indicatorValue: 0.40,
     ),
     Services(
-      title: Strings.TITLE_DPSR_OUR_SERVICES,
+      title: Strings.TITLE_DPSR_JH,
       indicatorValue: 0.60,
     ),
     Services(
-      title: Strings.TITLE_DPSR_BE_SPONSER,
+      title: Strings.TITLE_DPSR_NHJ,
       indicatorValue: 0.80,
     ),
     Services(
-      title: Strings.TITLE_DPSR_OUR_SPONSERS,
+      title: Strings.TITLE_DPSR_GGG,
       indicatorValue: 1.0,
     ),
   ];

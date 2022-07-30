@@ -48,7 +48,7 @@ class Strings {
   static const String HYPHEN = '-';
   static const String PLUS = '+';
   static const String ROLE_USR = 'User';
-  static const String CHN_IMG_PATH = 'lib/resources/images/bits.png';
+  static const String CHN_IMG_PATH = 'lib/resources/images/krce.png';
   static const String FOR = 'for';
   static const String BACK_SLASH = '/';
   static const String POST = 'POST';
@@ -93,6 +93,38 @@ class Strings {
   static const String TITLE_VAT_SELL = 'Sell/Rent/Lease Land/House/Office';
   static const String TITLE_VAT_VIEW_EDIT_DELETE_PROFILE = 'View/Edit/Delete your created Profile';
   static const String TITLE_DPSR_ABOUT_US = 'About Us';
+  static const String TITLE_DPSR_CCE = 'CHOCOLATE';
+  static const String TITLE_DPSR_DDD = 'VANILLA';
+  static const String TITLE_DPSR_MBG = 'COTTON CANDY';
+  static const String TITLE_DPSR_HHH = 'BUTTERSCOTCH';
+  static const String TITLE_DPSR_JHF = 'STRAWBERRY';
+  static const String TITLE_DPSR_MNN = 'Student ID';
+  static const String TITLE_DPSR_JHY = 'Student Name';
+  static const String TITLE_DPSR_JH = 'Student College';
+  static const String TITLE_DPSR_NHJ = 'Student Course';
+  static const String TITLE_DPSR_GGG = 'SUBMIT';
+  static const String TITLE_DPSR_ABC = 'College Name ';
+  static const String TITLE_DPSR_EFG = 'College Address ';
+  static const String TITLE_DPSR_JFK = 'College Subjects';
+  static const String TITLE_DPSR_TTT = 'SUBMIT';
+  static const String TITLE_DPSR_KKK = 'IOT';
+  static const String TITLE_DPSR_TKK = 'AI';
+  static const String TITLE_DPSR_NMFA= 'MPMC';
+  static const String TITLE_DPSR_NH= 'Computer Network';
+  static const String TITLE_DPSR_JJJ = 'Mobile Computing';
+
+
+
+
+
+
+
+
+
+
+
+
+
   static const String TITLE_DPSR_CONTACT_US = 'Contact Us';
   static const String TITLE_DPSR_OUR_SERVICES = 'Our Services';
   static const String TITLE_DPSR_BE_SPONSER = 'Be a Sponsor';
@@ -113,6 +145,10 @@ class Strings {
   static const String TITLE_MM_TB_SAS = 'Knowledge';
   static const String TITLE_MM_TB_KAI = 'Charity';
   static const String TITLE_MM_TB_DPSR = 'About Us';
+  static const String TITLE_MM_TB_FIRE ='Ice';
+  static const String TITLE_MM_TB_STUDENT='Student';
+  static const String TITLE_MM_TB_SUBJECT='Subject';
+  static const String TITLE_MM_TB_COLLEGE='College';
   static const String TITLE_MM_TB_ADMOPR = 'Admin Operations';
   static const String TITLE_SAS_40_SAMSKARAM = 'Genres';
   static const String TITLE_VED_SELECT_CITY = 'Please Select the City';
